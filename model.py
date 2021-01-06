@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-%matplotlib inline
 import sys
 import scipy
 import sklearn 
@@ -13,6 +12,8 @@ from matplotlib import pyplot
 from sklearn.preprocessing import PolynomialFeatures
 
 # Training the model
+
+data= pd.read_csv("powerproduction.csv")
 
 poly3 = PolynomialFeatures(degree=3)
 
