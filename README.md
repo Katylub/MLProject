@@ -7,16 +7,12 @@ This project contains a web service that uses Machine Learning to make predictio
 In summary you will see:<br>
 
 	• A Jupyter notebook that trains a model using the data set. 
-	https://github.com/Katylub/MLProject/blob/master/train-model.ipynb 
 
 	• Python script that runs a web service based on the model, as above.
-	https://github.com/Katylub/MLProject/blob/master/api.py
 
 	• Dockerfile to build and run the web service in a container.
-	https://github.com/Katylub/MLProject/blob/master/Dockerfile
 
 	• Virtual Environment
-	https://github.com/Katylub/MLProject/blob/master/requirements.txt
 
 ## Installation
 1. Make sure you have Jupyter Notebook and Python installed to run the program
