@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.8.3
 
 WORKDIR /usr/src/app
 
@@ -8,6 +8,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-ENV FLASK_APP=rando.py
+ENV FLASK_APP=api.py
 
 CMD flask run --host=0.0.0.0
